@@ -1,0 +1,93 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f2de;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.nav-logo p {
+  color: rgb(37, 37, 67);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-menu {
+  color: rgb(85, 71, 71);
+  margin-right: 30px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.nav-menu li:hover {
+  background-color: #f1d39c;
+
+  transition: 0.8s ease;
+  border-radius: 15px;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button {
+  width: 110px;
+  height: 40px;
+  border: 0px;
+  border-radius: 50px;
+  background-color: rgb(235, 210, 210);
+  cursor: pointer;
+  box-shadow: 1px 2px 3px;
+}
+.nav-login-cart button:hover {
+  background-color: darkgoldenrod;
+  color: white;
+  transition: 0.7s ease;
+  text-shadow: 1px 2px 3px black;
+}
+
+.nav-login-cart img {
+  margin-right: 30px;
+  width: 30px;
+}
+
+.nav-login-cart button:active {
+  background-color: rgba(255, 0, 0, 0.218);
+}
+
+.nav-cart-count {
+  width: 15px;
+  height: 15px;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  margin-top: -35px;
+  margin-left: -81px;
+}
